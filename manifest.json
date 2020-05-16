@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Jackbox Room Finder",
+  "version": "0.1",
+  "description": "A firefox add-on to find available room codes (from a part of code or from scratch) and other informations about them (like the game of the room, join type (audience, player, ...), etc.) for jackbox.tv",
+  "homepage_url": "https://github.com/PhirosWolf/jackbox-room-finder",
+  "icons": {
+    "48": "icons/open_padlock.png",
+    "96": "icons/open_padlock.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/open_padlock.png",
+    "default_title": "Jackbox Room Finder",
+    "default_popup": "app/menu.html"
+  }
+}

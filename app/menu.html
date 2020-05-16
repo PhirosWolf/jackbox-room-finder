@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="menu.css" />
+    <script src="find.js"></script>
+    <script src="menu.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackbox Room Finder</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jackbox Room Finder</h1>
+      <img src="../icons/open_padlock.png" class="logo" />
+    </header>
+    <main>
+      <div class="code-input">
+        <input type="text" maxlength="1" id="first_letter" value="*" />
+        <input type="text" maxlength="1" id="scnd_letter" value="*" />
+        <input type="text" maxlength="1" id="thrd_letter" value="*" />
+        <input type="text" maxlength="1" id="frth_letter" value="*" />
+      </div>
+      <button id="search">Search</button>
+      <button id="reset">Reset</button>
+      <button id="stop">Stop search</button>
+      <div class="results"></div>
+    </main>
+    <hr />
+    <footer>
+      <p>W.I.P. version. Created by PhirosWolf. <a href="https://github.com/PhirosWolf/jackbox-room-finder">GitHub Repo</a></p>
+    </footer>
+  </body>
+</html>
